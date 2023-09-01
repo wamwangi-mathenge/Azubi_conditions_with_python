@@ -17,3 +17,11 @@ if country == "kenya":
     print("You're a Kenyan")
 else:
     print("You're not a Kenyan")
+    
+
+# Using string functions to make case insensitive comparisons
+
+if country.lower() == 'kenya':
+    print("You're a Kenyan")
+else:
+    print("You're not a Kenyan")
