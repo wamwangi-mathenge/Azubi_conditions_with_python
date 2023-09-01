@@ -8,3 +8,12 @@ else:
     tax = 0
     
 print(tax)
+
+# String Comparison
+
+country = "KENYA"
+
+if country == "kenya":
+    print("You're a Kenyan")
+else:
+    print("You're not a Kenyan")
