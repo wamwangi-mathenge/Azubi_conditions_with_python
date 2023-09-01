@@ -26,3 +26,16 @@ if country.lower() == 'kenya':
     print("You're a Kenyan")
 else:
     print("You're not a Kenyan")
+    
+    
+
+# A student makes honour roll if the average is >=85
+# and their lowest grade is not below 75
+
+gpa = float(input("What was your GPA? "))
+lowest_grade = float(input("What was your lowest grade? "))
+
+if gpa >= .85 and lowest_grade >= .75:
+    print("You made the honour roll")
+else:
+    print("You did not make the honour roll")
