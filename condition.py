@@ -1,13 +1,14 @@
 # If-else statement
 
-price = 0.01
+price = input("How much did you pay? ")
+price = float(price)
 
 if price >= 1.00:
-    tax = .07
+    tax = 0.07
 else:
     tax = 0
     
-print(tax)
+print(f"Tax rate is: {tax}")
 
 # String Comparison
 
