@@ -36,6 +36,11 @@ gpa = float(input("What was your GPA? "))
 lowest_grade = float(input("What was your lowest grade? "))
 
 if gpa >= .85 and lowest_grade >= .75:
+    honour_roll = True
+else:
+    honour_roll = False
+    
+if honour_roll:
     print("You made the honour roll")
 else:
     print("You did not make the honour roll")
